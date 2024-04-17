@@ -1,0 +1,1344 @@
+{
+	"Friendship":{
+		"max": 2500,
+		"perHeart": 250,
+		"gainPerWeek": 380,
+		"maxBirthday": 640,
+		"lovedGift": 80,
+		"likedGift": 45,
+		"silverStarMultiplier": 1.1,
+		"goldenStarMultiplier": 1.25,
+		"iridiumStarMultiplier": 1.5,
+		"birthdayMultiplier": 8,
+		"winterPartyMultiplier": 5
+	},
+	"upFriendship":{
+		"1":"Parler => +20",
+		"2":"Offre d'embauche => +150"
+	},
+	"collection":{
+		"fish":{
+		},
+		"expedition":{
+			"1":{
+				"name": "Busserole",
+				"type": "Trouvé en creusant",
+				"place": ["Dans la forêt secrète"], 
+				"seasons": ["Hiver"]
+			},
+			"2":{
+				"name": "Rose étoilée d'hiver",
+				"type": "Cueillette",
+				"place": ["Au Sommet"], 
+				"seasons": ["Hiver"]
+			}
+		}
+	},
+	"craftRequirement":{
+		"craftUnlock":[
+			"Combat niveau 10",
+			"Extraction Minière niveau 10",
+			"Acheter toutes les recettes de : ",
+			"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp- Isaac"
+		]
+	},
+	"recipeCrafts":{
+		"1":{
+			"name": "Oeuf sur le plat",
+			"ingredients": [
+				{"name": "Oeuf", "quantity": 1}
+			],
+			"unlock": "Première amélioration de la maison"
+		},
+		"2":{
+			"name": "Omelette",
+			"ingredients": [
+				{"name": "Oeuf", "quantity": 1},
+				{"name": "Lait", "quantity": 1}
+			],
+			"unlock": "Achetée à Gus"
+		},
+		"3":{
+			"name": "Salade",
+			"ingredients": [
+				{"name": "Poireau", "quantity": 1},
+				{"name": "Pissenlit", "quantity": 1},
+				{"name": "Vinaigre", "quantity": 1}
+			],
+			"unlock": "Emily 3 coeurs"
+		},
+		"4":{
+			"name": "Gratin de chou-fleur",
+			"ingredients": [
+				{"name": "Chou-fleur", "quantity": 1},
+				{"name": "Fromage", "quantity": 1}
+			],
+			"unlock": "Pam 3 coeurs"
+		},
+		"5":{
+			"name": "Poisson cuit au four",
+			"ingredients": [
+				{"name": "Poisson lune", "quantity": 1},
+				{"name": "Dorade", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 7 Eté, année 1"
+		},
+		"6":{
+			"name": "Soupe de panais",
+			"ingredients": [
+				{"name": "Panais", "quantity": 1},
+				{"name": "Lait", "quantity": 1},
+				{"name": "Vinaigre", "quantity": 1}
+			],
+			"unlock": "Caroline 3 coeurs"
+		},
+		"7":{
+			"name": "Mélange de légumes",
+			"ingredients": [
+				{"name": "Tomate", "quantity": 1},
+				{"name": "Betterave", "quantity": 1}
+			],
+			"unlock": "Caroline 7 coeurs"
+		},
+		"8":{
+			"name": "Petit-déjeuner complet",
+			"ingredients": [
+				{"name": "Oeuf sur le plat", "quantity": 1},
+				{"name": "Lait", "quantity": 1},
+				{"name": "Galettes de pommes de terre", "quantity": 1},
+				{"name": "Pancakes", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 21 Printemps, année 2"
+		},
+		"9":{
+			"name": "Calmars frits",
+			"ingredients": [
+				{"name": "Calmar", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1},
+				{"name": "Huile", "quantity": 1}
+			],
+			"unlock": "Jodi 3 coeurs"
+		},
+		"10":{
+			"name": "Petit pain étrange",
+			"ingredients": [
+				{"name": "Bigorneau", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1},
+				{"name": "Mayonnaise du Vide", "quantity": 1}
+			],
+			"unlock": "Shane 3 coeurs"
+		},
+		"11":{
+			"name": "Déjeuner chanceux",
+			"ingredients": [
+				{"name": "Concombre de mer", "quantity": 1},
+				{"name": "Zinnia bleue", "quantity": 1},
+				{"name": "Tortilla", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 28 Printemps, année 2"
+		},
+		"12":{
+			"name": "Champignon frit",
+			"ingredients": [
+				{"name": "Morille", "quantity": 1},
+				{"name": "Huile", "quantity": 1},
+				{"name": "Champignon commun", "quantity": 1}
+			],
+			"unlock": "Demetrius 3 coeurs"
+		},
+		"13":{
+			"name": "Pizza",
+			"ingredients": [
+				{"name": "Tomate", "quantity": 1},
+				{"name": "Fromage", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1}
+			],
+			"unlock": "Achetée à Gus"
+		},
+		"14":{
+			"name": "Ragoût aux haricots",
+			"ingredients": [
+				{"name": "Haricot vert", "quantity": 2}
+			],
+			"unlock": "Clint 7 coeurs"
+		},
+		"15":{
+			"name": "Ignames glacées",
+			"ingredients": [
+				{"name": "Igname", "quantity": 1},
+				{"name": "Sucre", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 21 Automne, année 1"
+		},
+		"16":{
+			"name": "Carpe surprise",
+			"ingredients": [
+				{"name": "Carpe", "quantity": 4}
+			],
+			"unlock": "La reine des sauces - 7 Eté, année 2"
+		},
+		"17":{
+			"name": "Galettes de pommes de terre",
+			"ingredients": [
+				{"name": "Pomme de terre", "quantity": 1},
+				{"name": "Huile", "quantity": 1}
+			],
+			"unlock": "Achetée à Gus"
+		},
+		"18":{
+			"name": "Pancakes",
+			"ingredients": [
+				{"name": "Farine de blé", "quantity": 1},
+				{"name": "Oeuf", "quantity": 1}
+			],
+			"unlock": "Achetée à Gus"
+		},
+		"19":{
+			"name": "Dîner de saumon",
+			"ingredients": [
+				{"name": "Saumon", "quantity": 1},
+				{"name": "Amarante", "quantity": 1},
+				{"name": "Chou frisé", "quantity": 1}
+			],
+			"unlock": "Gus 3 coeurs"
+		},
+		"20":{
+			"name": "Tacos de poisson",
+			"ingredients": [
+				{"name": "Thon", "quantity": 1},
+				{"name": "Tortilla", "quantity": 1},
+				{"name": "Chou rouge", "quantity": 1},
+				{"name": "Mayonnaise", "quantity": 1}
+			],
+			"unlock": "Linus 7 coeurs"
+		},
+		"21":{
+			"name": "Achigan croustillant",
+			"ingredients": [
+				{"name": "Achigan croustillant", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1},
+				{"name": "Huile", "quantity": 1}
+			],
+			"unlock": "Kent 3 coeurs"
+		},
+		"22":{
+			"name": "Poivron farci",
+			"ingredients": [
+				{"name": "Piment fort", "quantity": 1},
+				{"name": "Fromage", "quantity": 1}
+			],
+			"unlock": "Shane 3 coeurs"
+		},
+		"23":{
+			"name": "Pain",
+			"ingredients": [
+				{"name": "Farine de blé", "quantity": 1}
+			],
+			"unlock": "Achetée à Gus"
+		},
+		"24":{
+			"name": "Soupe tom-kha",
+			"ingredients": [
+				{"name": "Noix de coco", "quantity": 1},
+				{"name": "Crevette", "quantity": 1},
+				{"name": "Champignon commun", "quantity": 1}
+			],
+			"unlock": "Sandy 7 coeurs"
+		},
+		"25":{
+			"name": "Soupe à la truite",
+			"ingredients": [
+				{"name": "Algues vertes", "quantity": 1},
+				{"name": "Truite arc-en-ciel", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 14 Automne, année 1"
+		},
+		"26":{
+			"name": "Gâteau au chocolat",
+			"ingredients": [
+				{"name": "Farine de blé", "quantity": 1},
+				{"name": "Sucre", "quantity": 1},
+				{"name": "Oeuf", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 14 Hiver, année 1"
+		},
+		"27":{
+			"name": "Gâteau rose",
+			"ingredients": [
+				{"name": "Melon", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1},
+				{"name": "Sucre", "quantity": 1},
+				{"name": "Oeuf", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 21 Eté, année 2"
+		},
+		"28":{
+			"name": "Tarte à la rhubarbe",
+			"ingredients": [
+				{"name": "Rhubarbe", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1},
+				{"name": "Sucre", "quantity": 1}
+			],
+			"unlock": "Marnie 7 coeurs"
+		},
+		"29":{
+			"name": "Cookie",
+			"ingredients": [
+				{"name": "Farine de blé", "quantity": 1},
+				{"name": "Oeuf", "quantity": 1},
+				{"name": "Sucre", "quantity": 1}
+			],
+			"unlock": "Evelyn 4 coeurs"
+		},
+		"30":{
+			"name": "Spaghetti",
+			"ingredients": [
+				{"name": "Farine de blé", "quantity": 1},
+				{"name": "Tomate", "quantity": 1}
+			],
+			"unlock": "Lewis 3 coeurs"
+		},
+		"31":{
+			"name": "Anguille grillée",
+			"ingredients": [
+				{"name": "Anguille", "quantity": 1},
+				{"name": "Huile", "quantity": 1}
+			],
+			"unlock": "George 3 coeurs"
+		},
+		"32":{
+			"name": "Anguille épicée",
+			"ingredients": [
+				{"name": "Anguille", "quantity": 1},
+				{"name": "Piment fort", "quantity": 1}
+			],
+			"unlock": "George 7 coeurs"
+		},
+		"33":{
+			"name": "Sashimi",
+			"ingredients": [
+				{"name": "Poisson (Quelconque)", "quantity": 1}
+			],
+			"unlock": "Linus 3 coeurs"
+		},
+		"34":{
+			"name": "Maki",
+			"ingredients": [
+				{"name": "Poisson (Quelconque)", "quantity": 1},
+				{"name": "Algues", "quantity": 1},
+				{"name": "Riz", "quantity": 1}
+			],
+			"unlock": "Achetée à Gus"
+		},
+		"35":{
+			"name": "Tortilla",
+			"ingredients": [
+				{"name": "Maïs", "quantity": 1}
+			],
+			"unlock": "Achetée à Gus"
+		},
+		"36":{
+			"name": "Assiette d'antioxydants",
+			"ingredients": [
+				{"name": "Chou rouge", "quantity": 1},
+				{"name": "Radis", "quantity": 1}
+			],
+			"unlock": "Emily 7 coeurs"
+		},
+		"37":{
+			"name": "Aubergine au parmesan",
+			"ingredients": [
+				{"name": "Aubergine", "quantity": 1},
+				{"name": "Tomate", "quantity": 1}
+			],
+			"unlock": "Lewis 7 coeurs"
+		},
+		"38":{
+			"name": "Riz au lait",
+			"ingredients": [
+				{"name": "Riz", "quantity": 1},
+				{"name": "Lait", "quantity": 1},
+				{"name": "Sucre", "quantity": 1}
+			],
+			"unlock": "Evelyn 7 coeurs"
+		},
+		"39":{
+			"name": "Crème glacée",
+			"ingredients": [
+				{"name": "Lait", "quantity": 1},
+				{"name": "Sucre", "quantity": 1}
+			],
+			"unlock": "Jodi 7 coeurs"
+		},
+		"40":{
+			"name": "Tarte aux myrtilles",
+			"ingredients": [
+				{"name": "Myrtille", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1},
+				{"name": "Oeuf", "quantity": 1},
+				{"name": "Sucre", "quantity": 1}
+			],
+			"unlock": "Pierre 3 coeurs"
+		},
+		"41":{
+			"name": "Récompense d'automne",
+			"ingredients": [
+				{"name": "Igname", "quantity": 1},
+				{"name": "Citrouille", "quantity": 1}
+			],
+			"unlock": "Demetrius 7 coeurs"
+		},
+		"42":{
+			"name": "Soupe à la citrouille",
+			"ingredients": [
+				{"name": "Citrouille", "quantity": 1},
+				{"name": "Lait", "quantity": 1}
+			],
+			"unlock": "Robine 7 coeurs"
+		},
+		"43":{
+			"name": "Repas énergétique",
+			"ingredients": [
+				{"name": "Chou chinois", "quantity": 1},
+				{"name": "Canneberges", "quantity": 1},
+				{"name": "Artichaut", "quantity": 1}
+			],
+			"unlock": "Kent 7 coeurs"
+		},
+		"44":{
+			"name": "Sauce aux canneberges",
+			"ingredients": [
+				{"name": "Canneberges", "quantity": 1},
+				{"name": "Sucre", "quantity": 1}
+			],
+			"unlock": "Gus 7 coeurs"
+		},
+		"45":{
+			"name": "Farce",
+			"ingredients": [
+				{"name": "Pain", "quantity": 1},
+				{"name": "Canneberges", "quantity": 1},
+				{"name": "Noisette", "quantity": 1}
+			],
+			"unlock": "Pam 7 coeurs"
+		},
+		"46":{
+			"name": "Déjeuner du fermier",
+			"ingredients": [
+				{"name": "Omelette", "quantity": 1},
+				{"name": "Panais", "quantity": 1}
+			],
+			"unlock": "Agriculture Niv3"
+		},
+		"47":{
+			"name": "Hamburger de survie",
+			"ingredients": [
+				{"name": "Pain", "quantity": 1},
+				{"name": "Carottes des cavernes", "quantity": 1},
+				{"name": "Aubergine", "quantity": 1}
+			],
+			"unlock": "Cueillette Niv2"
+		},
+		"48":{
+			"name": "Plat de la mer",
+			"ingredients": [
+				{"name": "Sardine", "quantity": 2},
+				{"name": "Galettes de pommes de terre", "quantity": 1}
+			],
+			"unlock": "Pêche Niv3"
+		},
+		"49":{
+			"name": "Friandise de mineur",
+			"ingredients": [
+				{"name": "Carottes des cavernes", "quantity": 2},
+				{"name": "Sucre", "quantity": 1},
+				{"name": "Lait", "quantity": 1}
+			],
+			"unlock": "Extraction Minière Niv3"
+		},
+		"50":{
+			"name": "Plateau de racines",
+			"ingredients": [
+				{"name": "Carottes des cavernes", "quantity": 1},
+				{"name": "Racine d'hiver", "quantity": 1}
+			],
+			"unlock": "Combat Niv3"
+		},
+		"51":{
+			"name": "Soupe aux algues",
+			"ingredients": [
+				{"name": "Algues vertes", "quantity": 4}
+			],
+			"unlock": "Clint 3 coeurs"
+		},
+		"52":{
+			"name": "Bouillon clair",
+			"ingredients": [
+				{"name": "Algues blanches", "quantity": 2}
+			],
+			"unlock": "Marnie 3 coeurs"
+		},
+		"53":{
+			"name": "Pudding aux prunes",
+			"ingredients": [
+				{"name": "Prune sauvage", "quantity": 2},
+				{"name": "Sucre", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 7 Hiver, année 1"
+		},
+		"54":{
+			"name": "Trempette aux artichauts",
+			"ingredients": [
+				{"name": "Artichaut", "quantity": 1},
+				{"name": "Lait (Quelconque)", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 28 Automne, année 1"
+		},
+		"55":{
+			"name": "Sauté",
+			"ingredients": [
+				{"name": "Carottes des cavernes", "quantity": 1},
+				{"name": "Champignon commun", "quantity": 1},
+				{"name": "Chou frisé", "quantity": 1},
+				{"name": "Huile", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 7 Printemps, année 1"
+		},
+		"56":{
+			"name": "Noisettes grillées",
+			"ingredients": [
+				{"name": "Noisette", "quantity": 3}
+			],
+			"unlock": "La reine des sauces - 28 Eté, année 2"
+		},
+		"57":{
+			"name": "Tarte à la citrouille",
+			"ingredients": [
+				{"name": "Citrouille", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1},
+				{"name": "Lait", "quantity": 1},
+				{"name": "Sucre", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 21 Hiver, année 1"
+		},
+		"58":{
+			"name": "Salade de radis",
+			"ingredients": [
+				{"name": "Huile", "quantity": 1},
+				{"name": "Vinaigre", "quantity": 1},
+				{"name": "Radis", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 21 Printemps, année 1"
+		},
+		"59":{
+			"name": "Salade de fruits",
+			"ingredients": [
+				{"name": "Myrtille", "quantity": 1},
+				{"name": "Abricot", "quantity": 1},
+				{"name": "Melon", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 7 Automne, année 2"
+		},
+		"60":{
+			"name": "Tourte aux mûres",
+			"ingredients": [
+				{"name": "Mûre", "quantity": 2},
+				{"name": "Sucre", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 14 Automne, année 2"
+		},
+		"61":{
+			"name": "Bonbons aux canneberges",
+			"ingredients": [
+				{"name": "Canneberges", "quantity": 1},
+				{"name": "Pomme", "quantity": 1},
+				{"name": "Sucre", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 28 Hiver, année 1"
+		},
+		"62":{
+			"name": "Bruschetta",
+			"ingredients": [
+				{"name": "Pain", "quantity": 1},
+				{"name": "Huile", "quantity": 1},
+				{"name": "Tomate", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 21 Hiver, année 2"
+		},
+		"63":{
+			"name": "Salade de chou",
+			"ingredients": [
+				{"name": "Chou rouge", "quantity": 1},
+				{"name": "Vinaigre", "quantity": 1},
+				{"name": "Mayonnaise", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 14 Printemps, année 1"
+		},
+		"64":{
+			"name": "Risotto aux fougères",
+			"ingredients": [
+				{"name": "Huile", "quantity": 1},
+				{"name": "Fougères de Fern", "quantity": 1},
+				{"name": "Ail", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 28 Automne, année 2"
+		},
+		"65":{
+			"name": "Muffin aux graines de pavot",
+			"ingredients": [
+				{"name": "Pavot", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1},
+				{"name": "Sucre", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 7 Hiver, année 2"
+		},
+		"66":{
+			"name": "Soupe de Palourdes",
+			"ingredients": [
+				{"name": "Palourde", "quantity": 1},
+				{"name": "Lait", "quantity": 1}
+			],
+			"unlock": "Willi 3 coeurs"
+		},
+		"67":{
+			"name": "Bisque de homard",
+			"ingredients": [
+				{"name": "Homard", "quantity": 1},
+				{"name": "Lait", "quantity": 1}
+			],
+			"unlock": "Willy 9 coeurs <br/> La reine des sauces - 14 Hiver, année 2"
+		},
+		"68":{
+			"name": "Escargots",
+			"ingredients": [
+				{"name": "Escargot", "quantity": 1},
+				{"name": "Ail", "quantity": 1}
+			],
+			"unlock": "Willy 5 coeurs"
+		},
+		"69":{
+			"name": "Ragoût de poisson",
+			"ingredients": [
+				{"name": "Ecrevisse", "quantity": 1},
+				{"name": "Moule", "quantity": 1},
+				{"name": "Bigorneau", "quantity": 1},
+				{"name": "Tomate", "quantity": 1}
+			],
+			"unlock": "Willy 7 coeurs"
+		},
+		"70":{
+			"name": "Gâteau à l'érable",
+			"ingredients": [
+				{"name": "Sirop d'érable", "quantity": 1},
+				{"name": "Sucre", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 14 Eté, année 2"
+		},
+		"71":{
+			"name": "Beignets de crabe",
+			"ingredients": [
+				{"name": "Crabe", "quantity": 1},
+				{"name": "Oeuf", "quantity": 1},
+				{"name": "Huile", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1}
+			],
+			"unlock": "La reine des sauces - 21 Automne, année 2"
+		},
+		"72":{
+			"name": "Gruau aux baies cuites au four",
+			"ingredients": [
+				{"name": "Baie de saumon", "quantity": 15},
+				{"name": "Mûre", "quantity": 15},
+				{"name": "Sucre", "quantity": 15},
+				{"name": "Farine de blé", "quantity": 2}
+			],
+			"unlock": "Achetée à l'Ours"
+		},
+		"73":{
+			"name": "Gros hamburger au chien",
+			"ingredients": [
+				{"name": "Poisson-chiot", "quantity": 1},
+				{"name": "Pain", "quantity": 1},
+				{"name": "Huile", "quantity": 1}
+			],
+			"unlock": "Gus 5 coeurs"
+		},
+		"74":{
+			"name": "Cookie aux fleurs",
+			"ingredients": [
+				{"name": "Primevère", "quantity": 1},
+				{"name": "Verge d'or", "quantity": 1},
+				{"name": "Rose étoilée d'hiver", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1},
+				{"name": "Sucre", "quantity": 1},
+				{"name": "Oeuf (Gros)", "quantity": 1}
+			],
+			"unlock": "Achetée à l'Ours"
+		},
+		"75":{
+			"name": "Cuisses de grenouille",
+			"ingredients": [
+				{"name": "Grenouille", "quantity": 1},
+				{"name": "Huile", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1}
+			],
+			"unlock": "Achetée à Marlon"
+		},
+		"76":{
+			"name": "Poisson-beurre glacé",
+			"ingredients": [
+				{"name": "Poisson-beurre", "quantity": 1},
+				{"name": "Huile", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1}
+			],
+			"unlock": "Achetée à Gus (10 coeurs)"
+		},
+		"77":{
+			"name": "Tarte aux petits fruits",
+			"ingredients": [
+				{"name": "Baie de Salal", "quantity": 6},
+				{"name": "Fraise", "quantity": 6},
+				{"name": "Mûre", "quantity": 6},
+				{"name": "Busserole", "quantity": 6},
+				{"name": "Sucre", "quantity": 1},
+				{"name": "Farine de blé", "quantity": 1}
+			],
+			"unlock": "Achetée à Gus"
+		},
+		"78":{
+			"name": "Riz aux champignons et aux baies",
+			"ingredients": [
+				{"name": "Riz", "quantity": 1},
+				{"name": "Champignon Poison", "quantity": 3},
+				{"name": "Myrtille Rouge", "quantity": 10},
+				{"name": "Sucre", "quantity": 2}
+			],
+			"unlock": "Achetée à Marlon"
+		},
+		"79":{
+			"name": "Salade d'algues",
+			"ingredients": [
+				{"name": "Huile", "quantity": 1},
+				{"name": "Algues", "quantity": 2},
+				{"name": "Algues Dulse", "quantity": 2}
+			],
+			"unlock": "Acheté à Willy"
+		},
+		"80":{
+			"name": "Délice du Vide",
+			"ingredients": [
+				{"name": "Anguille du Vide", "quantity": 1},
+				{"name": "Essence du Vide", "quantity": 50},
+				{"name": "Essence solaire", "quantity": 20}
+			],
+			"unlock": "Achetée à Krobus (10 coeurs)"
+		},
+		"81":{
+			"name": "Sushi au Saumon du Vide",
+			"ingredients": [
+				{"name": "Saumon du Vide", "quantity": 1},
+				{"name": "Mayonnaise du Vide", "quantity": 1},
+				{"name": "Algues", "quantity": 3}
+			],
+			"unlock": "Achetée à Krobus (10 coeurs)"
+		}
+	},
+	"toDoList":{
+		"perfection":{
+			"1":{
+				"libelle": "Expéditions",
+				"requirement": null,
+				"progression": "Incomplet"
+			},
+			"2":{
+				"libelle": "4 obélisques",
+				"requirement": null,
+				"progression": "Complet"
+			},
+			"3":{
+				"libelle": "Horloge dorée",
+				"requirement": "10 000 000Po",
+				"progression": "Incomplet"
+			},
+			"4":{
+				"libelle": "Tueur de Monstres Héroïque",
+				"requirement": null,
+				"progression": "Complet"
+			},
+			"5":{
+				"libelle": "Très bons amis",
+				"requirement": "47 villageois",
+				"progression": "Incomplet"
+			},
+			"6":{
+				"libelle": "Niveau d'agriculteur",
+				"requirement": null,
+				"progression": "Complet"
+			},
+			"7":{
+				"libelle": "Fruits étoilés",
+				"requirement": null,
+				"progression": "Complet"
+			},
+			"8":{
+				"libelle": "Recettes de cuisine completées",
+				"requirement": "71 plats Vanilla + 10 plats SVE",
+				"progression": "Incomplet"
+			},
+			"9":{
+				"libelle": "Recettes artisanales completées",
+				"requirement": "97 recettes Vanilla + 3 recettes SVE",
+				"progression": "Incomplet"
+			},
+			"10":{
+				"libelle": "Poissons attrapés",
+				"requirement": null,
+				"progression": "Complet"
+			},
+			"11":{
+				"libelle": "Noix dorées trouvées",
+				"requirement": null,
+				"progression": "Complet"
+			}
+		},
+		"story":{
+		}
+	},
+	"lovedGifts":{
+		"1":{
+			"gift": 85,
+			"exception": ["Haley", "Susan", "Andy", "Apples", "Lance"]
+		},
+		"2":{
+			"gift": 62,
+			"exception": ["Penny", "Susan", "Sophia", "Andy", "Apples", "Lance", "Morgan", "Olivia"]
+		},
+		"3":{
+			"gift": 64,
+			"exception": ["Apples", "Lance"]
+		},
+		"4":{
+			"gift": 16,
+			"exception": ["Susan", "Andy", "Apples"]
+		},
+		"5":{
+			"gift": 84,
+			"exception": ["Apples"]
+		},
+		"6":{
+			"gift": 187,
+			"exception": ["Andy", "Apples", "Lance", "Sorcier", "Marlon", "Morgan"]
+		}
+	},
+	"gifts":{
+		"1":"Abricot",
+		"2":"Aigue-marine",
+		"3":"Améthyste",
+		"4":"Betterave",
+		"5":"Bière blonde",
+		"6":"Bière",
+		"7":"Bisque de homard",
+		"8":"Poisson-beurre",
+		"9":"Café",
+		"10":"Calmars frits",
+		"11":"Carambole",
+		"12":"Cerise",
+		"13":"Champignon frit",
+		"14":"Champignon violet",
+		"15":"Chou-fleur",
+		"16":"Citrouille dorée",
+		"17":"Citrouille",
+		"18":"Concombre de mer",
+		"19":"Cookie",
+		"20":"Cornichons",
+		"21":"Crème glacée",
+		"22":"Crocus",
+		"23":"Curry tropical",
+		"24":"Dague des mers",
+		"25":"Diamant",
+		"26":"Dîner de saumon",
+		"27":"Eclat de braise",
+		"28":"Emeraude",
+		"29":"Escargot",
+		"30":"Essence du Vide",
+		"31":"Essence solaire",
+		"32":"Fleur tropicale d'été",
+		"33":"Fraise",
+		"34":"Cuisses de grenouilles",
+		"35":"Fromage de chèvre",
+		"36":"Fruit de cactus",
+		"37":"Gâteau au chocolat",
+		"38":"Gâteau rose",
+		"39":"Poisson-beurre glacé",
+		"40":"Grenade",
+		"41":"Grenouille",
+		"42":"Homard",
+		"43":"Huile de truffe",
+		"44":"Hydromel",
+		"45":"Igname",
+		"46":"Jonquille",
+		"47":"Jus",
+		"48":"Laine",
+		"49":"Lait de chèvre (Grand)",
+		"50":"Larme gelée",
+		"51":"Mangue",
+		"52":"Mayonnaise du Vide",
+		"53":"Melon",
+		"54":"Miel",
+		"55":"Noisettes grillées",
+		"56":"Noix de coco",
+		"57":"Oeuf de dinosaure",
+		"58":"Oeuf du Vide",
+		"59":"Orange",
+		"60":"Panais",
+		"61":"Pancakes",
+		"62":"Patte de lapin",
+		"63":"Pêche",
+		"64":"Perle",
+		"65":"Petit-déjeuner complet",
+		"66":"Pierre féerique",
+		"67":"Pile",
+		"68":"Piment fort",
+		"69":"Plateau de racines",
+		"70":"Plume de canard",
+		"71":"Poireau",
+		"72":"Pois de senteur",
+		"73":"Poisson des sables",
+		"74":"Poisson-Chiot",
+		"75":"Raifort sauvage",
+		"76":"Raisin",
+		"77":"Récompense d'automne",
+		"78":"Rose féerie",
+		"79":"Rubis",
+		"81":"Sashimi",
+		"82":"Sirop d'érable",
+		"83":"Spaghetti",
+		"84":"Sucre d'orge magique",
+		"85":"Tesson prismatique",
+		"86":"Thé vert",
+		"87":"Tissu",
+		"88":"Topaze",
+		"89":"Tournesol",
+		"90":"Truffe",
+		"91":"Tulipe",
+		"92":"Vin Blue Moon",
+		"93":"Vin",
+		"94":"Vin Blue Moon agé",
+		"95":"Tourte aux mûres",
+		"96":"Poisson-Globe",
+		"97":"Anguille épicée",
+		"98":"Elixir de défense",
+		"99":"Elixir de vitesse",
+		"100":"Elixir de héros",
+		"101":"Déjeuner du fermier",
+		"102":"Tacos de poisson",
+		"103":"Pierre océanique",
+		"104":"Bruschetta",
+		"105":"Boisson énérgétique ",
+		"106":"Trempette aux artichauts",
+		"107":"Lingot d'or",
+		"108":"Lingot en iridium",
+		"109":"Jade",
+		"110":"Géode-omni",
+		"111":"Riz au lait",
+		"112":"Ragoût aux haricots",
+		"113":"Beignets de crabe",
+		"114":"Soupe tom-kha",
+		"115":"Risotto aux fougères",
+		"116":"Hamburger de survie",
+		"117":"Farce",
+		"118":"Potée aux haricots",
+		"119":"Slime pétrifié",
+		"120":"Bague",
+		"121":"Eventail",
+		"122":"Disque rare",
+		"123":"Epée ancienne",
+		"124":"Heaume de Nain",
+		"125":"Gadget de Nain",
+		"126":"Masque doré",
+		"127":"Relique dorée",
+		"128":"Fragment d'étoile",
+		"129":"Escargots",
+		"130":"Gros hamburger au chien",
+		"131":"Salade de fruits",
+		"132":"Pudding aux prunes",
+		"133":"Achigan croustillant",
+		"134":"Aubergine au parmesan",
+		"135":"Anguille grillée",
+		"136":"Tarte à la rhubarbe",
+		"137":"Mélange de légumes",
+		"138":"Délice du Vide",
+		"139":"Sushi au saumon du Vide",
+		"140":"Caillou du Vide",
+		"141":"Eclat du Vide",
+		"142":"Âme galactique",
+		"143":"Poisson-gemme",
+		"144":"Champignon Vert",
+		"145":"Champignon Monstre",
+		"146":"Pierre tourbillonnante",
+		"147":"Truite torpille",
+		"148":"Trésor orné",
+		"149":"Repas énergétique",
+		"150":"Muffin aux graines de pavot",
+		"151":"Salade",
+		"153":"Sauté",
+		"154":"Oeuf d'autruche",
+		"155":"Poï",
+		"156":"Ignames glacées",
+		"157":"Tarte aux myrtilles",
+		"158":"Plat de la mer",
+		"159":"Elixir de vie",
+		"160":"Oeuf de slime bleu",
+		"161":"Oeuf de slime vert",
+		"162":"Oeuf de slime rouge",
+		"163":"Oeuf de slime violet",
+		"164":"Tarte à la citrouille",
+		"165":"Pierre de citron",
+		"166":"Gratin de chou-fleur",
+		"167":"Poivron farci",
+		"168":"Friandise de mineur",
+		"169":"Poisson-Chaton",
+		"170":"Soupe de panais",
+		"171":"Piña Colada",
+		"172":"Assiette d'antioxydants",
+		"173":"Pavot",
+		"174":"Riz gluant à la mangue",
+		"175":"Pizza",
+		"176":"Oeil de tigre",
+		"177":"Gâteau à l'érable",
+		"178":"Soupe à la citrouille",
+		"179":"Obsidienne",
+		"180":"Poulet à l'orange de Grampleton",
+		"181":"Grand concombre de mer",
+		"182":"Bonbons de canneberge",
+		"183":"Esturgeon",
+		"184":"Poulpe",
+		"185":"Poisson-chat",
+		"186":"Lunarite",
+		"187":"Fleur d'océan dorée",
+		"188":"Âme du Vide",
+		"189":"Busserole",
+		"190":"Conche",
+		"191":"Dollar de sable",
+		"192":"Verge d'or",
+		"193":"Colonie de champignons",
+		"194":"Champignon Poison",
+		"195":"Rafflesia",
+		"196":"Chardon",
+		"197":"Rose étoilée d'hiver",
+		"198":"Primevère",
+		"199":"Fibre ancienne",
+		"200":"Gruau aux baies cuites au four",
+		"201":"Fruit de monstre",
+		"202":"Baie de Salal",
+		"203":"Baie de slime",
+		"204":"Racine du Vide",
+		"205":"Poisson doré",
+		"206":"Carpe météore",
+		"207":"Lunaloo Brillant",
+		"208":"Cookie aux fleurs",
+		"209":"Tarte aux petits fruits",
+		"210":"Elixir d'égide",
+		"211":"Elixir de barbare",
+		"212":"Elixir de gravité",
+		"213":"Elixir de foudre",
+		"214":"Rhum",
+		"215":"Vin de Pissenlit",
+		"216":"Absinthe",
+		"217":"Cidre",
+		"218":"Gin",
+		"219":"Tequila",
+		"220":"Saké",
+		"221":"Triple Sec",
+		"222":"Vodka",
+		"223":"Whisky"
+	},
+	"villagers":{
+		"1":{
+			"name":"Abigail",
+			"birthday":"13 Automne",
+			"gifts":[3, 17, 37, 41, 95, 96, 97, 98, 99, 100, 201, 210, 211, 212, 213],
+			"isDatable": true
+		},
+		"2":{
+			"name":"Alex",
+			"birthday":"13 Été",
+			"gifts":[26, 65],
+			"isDatable": true
+		},
+		"3":{
+			"name":"Andy",
+			"birthday":"23 Printemps",
+			"gifts":[6, 5, 44, 8, 39, 95, 101, 209, 200],
+			"isDatable": false
+		},
+		"4":{
+			"name":"Apples",
+			"birthday":"N/A",
+			"gifts":[11],
+			"isDatable": false
+		},
+		"5":{
+			"name":"Caroline",
+			"birthday":"7 Hiver",
+			"gifts":[32, 86, 102],
+			"isDatable": false
+		},
+		"6":{
+			"name":"Claire",
+			"birthday":"8 Automne",
+			"gifts":[1, 86, 89, 39, 103, 104, 105, 209],
+			"isDatable": true
+		},
+		"7":{
+			"name":"Clint",
+			"birthday":"26 Hiver",
+			"gifts":[3, 2, 28, 79, 88, 106, 107, 108, 109, 110, 115],
+			"isDatable": false
+		},
+		"8":{
+			"name":"Demetrius",
+			"birthday":"19 Été",
+			"gifts":[33, 21, 111, 112, 195, 200],
+			"isDatable": false
+		},
+		"9":{
+			"name":"Elliott",
+			"birthday":"9 Été",
+			"gifts":[40, 70, 42, 94, 113, 114],
+			"isDatable": true
+		},
+		"10":{
+			"name":"Emily",
+			"birthday":"27 Printemps",
+			"gifts":[2, 3, 87, 48, 88, 109, 116, 79, 197],
+			"isDatable": true
+		},
+		"11":{
+			"name":"Evelyn",
+			"birthday":"20 Hiver",
+			"gifts":[4, 25, 91, 78, 117, 37, 196, 209],
+			"isDatable": false
+		},
+		"12":{
+			"name":"George",
+			"birthday":"24 Automne",
+			"gifts":[13, 71],
+			"isDatable": false
+		},
+		"13":{
+			"name":"Gunther",
+			"birthday":"12 Hiver",
+			"gifts":[57, 26, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128],
+			"isDatable": false
+		},
+		"14":{
+			"name":"Gus",
+			"birthday":"8 Été",
+			"gifts":[25, 59, 92, 8, 129, 130, 94, 102],
+			"isDatable": false
+		},
+		"15":{
+			"name":"Haley",
+			"birthday":"14 Printemps",
+			"gifts":[56, 89, 38, 131],
+			"isDatable": true
+		},
+		"16":{
+			"name":"Harvey",
+			"birthday":"14 Hiver",
+			"gifts":[9, 93, 20, 43, 92, 94, 149, 189],
+			"isDatable": true
+		},
+		"17":{
+			"name":"Jas",
+			"birthday":"4 Été",
+			"gifts":[38, 78, 132, 209],
+			"isDatable": false
+		},
+		"18":{
+			"name":"Jodi",
+			"birthday":"11 Automne",
+			"gifts":[25, 37, 61, 94, 133, 134, 135, 136, 137],
+			"isDatable": false
+		},
+		"19":{
+			"name":"Kent",
+			"birthday":"4 Printemps",
+			"gifts":[55, 94, 115],
+			"isDatable": false
+		},
+		"20":{
+			"name":"Krobus",
+			"birthday":"1 Hiver",
+			"gifts":[58, 52, 17, 75, 138, 139, 140, 141, 25, 108, 146, 188, 194, 204, 206],
+			"isDatable": false
+		},
+		"21":{
+			"name":"Lance",
+			"birthday":"8 Printemps",
+			"gifts":[23, 24, 94, 142, 143, 144, 145, 146, 147, 148, 141],
+			"isDatable": true
+		},
+		"22":{
+			"name":"Leah",
+			"birthday":"23 Hiver",
+			"gifts":[35, 93, 90, 92, 94, 137, 150, 151, 152, 153, 202, 209],
+			"isDatable": true
+		},
+		"23":{
+			"name":"Leo",
+			"birthday":"26 Été",
+			"gifts":[70, 51, 154, 155],
+			"isDatable": false
+		},
+		"24":{
+			"name":"Lewis",
+			"birthday":"7 Printemps",
+			"gifts":[68, 77, 86, 137, 156],
+			"isDatable": false
+		},
+		"25":{
+			"name":"Linus",
+			"birthday":"3 Hiver",
+			"gifts":[45, 36, 56, 34, 157, 158, 193, 200, 215],
+			"isDatable": false
+		},
+		"26":{
+			"name":"Marlon",
+			"birthday":"19 Hiver",
+			"gifts":[69, 94, 98, 99, 100, 138, 159, 160, 161, 162, 163, 146, 140, 141, 24, 205, 203, 210, 211, 212, 213],
+			"isDatable": false
+		},
+		"27":{
+			"name":"Marnie",
+			"birthday":"18 Automne",
+			"gifts":[25, 38, 94, 101, 164],
+			"isDatable": false
+		},
+		"28":{
+			"name":"Martin",
+			"birthday":"6 Été",
+			"gifts":[47, 21, 130, 209],
+			"isDatable": false
+		},
+		"29":{
+			"name":"Maru",
+			"birthday":"10 Été",
+			"gifts":[25, 67, 33, 15, 107, 108, 136, 166, 167, 168],
+			"isDatable": true
+		},
+		"30":{
+			"name":"Morgan",
+			"birthday":"7 Automne",
+			"gifts":[41, 58, 52, 108, 169, 188],
+			"isDatable": false
+		},
+		"31":{
+			"name":"Nain",
+			"birthday":"22 Été",
+			"gifts":[2, 3, 79, 28, 110, 109, 88, 165, 140, 141, 146, 188, 143],
+			"isDatable": false
+		},
+		"32":{
+			"name":"Olivia",
+			"birthday":"15 Printemps",
+			"gifts":[38, 92, 93, 37, 94, 126, 127, 192],
+			"isDatable": true
+		},
+		"33":{
+			"name":"Pam",
+			"birthday":"18 Printemps",
+			"gifts":[5, 6, 44, 46, 92, 94, 36, 156, 60, 171, 170, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223],
+			"isDatable": false
+		},
+		"34":{
+			"name":"Penny",
+			"birthday":"2 Automne",
+			"gifts":[73, 28, 25, 53, 172, 150, 173, 69, 114],
+			"isDatable": true
+		},
+		"35":{
+			"name":"Pierre",
+			"birthday":"26 Printemps",
+			"gifts":[10, 34, 94],
+			"isDatable": false
+		},
+		"36":{
+			"name":"Robine",
+			"birthday":"21 Automne",
+			"gifts":[63, 83, 35, 200],
+			"isDatable": false
+		},
+		"37":{
+			"name":"Sam",
+			"birthday":"17 Été",
+			"gifts":[36, 39, 175, 176, 177],
+			"isDatable": true
+		},
+		"38":{
+			"name":"Sandy",
+			"birthday":"15 Automne",
+			"gifts":[22, 46, 72, 174, 190, 198, 209],
+			"isDatable": false
+		},
+		"39":{
+			"name":"Scarlett",
+			"birthday":"7 Été",
+			"gifts":[35, 54, 70, 82, 12, 49, 159, 109, 37, 38],
+			"isDatable": false
+		},
+		"40":{
+			"name":"Sebastian",
+			"birthday":"10 Hiver",
+			"gifts":[50, 58, 81, 41, 178, 179],
+			"isDatable": true
+		},
+		"41":{
+			"name":"Shane",
+			"birthday":"20 Printemps",
+			"gifts":[6, 68, 167, 175, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223],
+			"isDatable": true
+		},
+		"42":{
+			"name":"Sophia",
+			"birthday":"27 Hiver",
+			"gifts":[66, 78, 74, 180, 209, 208],
+			"isDatable": true
+		},
+		"43":{
+			"name":"Sorcier",
+			"birthday":"17 Hiver",
+			"gifts":[34, 30, 31, 14, 181, 98, 99, 100, 138, 139, 140, 141, 146, 188, 199, 207, 204, 210, 211, 212, 213],
+			"isDatable": true
+		},
+		"44":{
+			"name":"Susan",
+			"birthday":"28 Automne",
+			"gifts":[38, 21, 61, 19, 95, 37, 164, 136, 157, 182, 172, 209],
+			"isDatable": false
+		},
+		"45":{
+			"name":"Victor",
+			"birthday":"23 Été",
+			"gifts":[92, 83, 70, 67, 8, 94, 186],
+			"isDatable": true
+		},
+		"46":{
+			"name":"Vincent",
+			"birthday":"10 Printemps",
+			"gifts":[38, 76, 29, 41, 182, 191, 209],
+			"isDatable": false
+		},
+		"47":{
+			"name":"Willy",
+			"birthday":"24 Été",
+			"gifts":[17, 18, 25, 44, 8, 183, 184, 108, 185, 214],
+			"isDatable": false
+		}
+	}
+}
