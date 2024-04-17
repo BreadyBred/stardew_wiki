@@ -3,3 +3,5 @@ Stardew Valley est un jeu que j'apprécie particulièrement. Après quelques heu
 
 Ici, vous retrouverez énormément d'informations liées au gameplay du jeu et à complétion du jeu à 100%.
 Nous avons aussi ajouté une page contenant nos données de jeu tirées du fichier XML de sauvegarde du jeu.
+
+[Lien du site](https://romain-gerard.com/projets/sve)
