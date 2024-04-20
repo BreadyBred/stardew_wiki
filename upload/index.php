@@ -3,7 +3,7 @@
 
 	if (!isset($_SESSION["status"])){
 		if (!empty($_POST)){
-			if (($_POST["username"] == "***") && ($_POST["password"] == "***")){
+			if (($_POST["username"] == "GroChien") && ($_POST["password"] == "ptitepute")){
 				$_SESSION["status"] = "CONNECTED";
 			}
 			else{

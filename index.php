@@ -27,7 +27,6 @@
 
 	<ul class="liste">
 	<?php
-		$count = count($prefixVillager);
 		for ($i = 1; $i <= $count; $i++){
 			$nom = $prefixVillager[$i]['name'];
 			echo '

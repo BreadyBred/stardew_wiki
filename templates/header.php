@@ -2,6 +2,7 @@
 
 	error_reporting(E_ERROR | E_PARSE);
 	session_start();
+
 	if ($_SERVER['HTTP_HOST'] == "localhost"){
 		if ($_SERVER["PHP_SELF"] == "/Projet/portfolio/projets/sve/others/villageois/index.php") $filename_better = '../../files/gameInfos_better.xml';
 		else $filename_better = '../files/gameInfos_better.xml';
@@ -23,38 +24,14 @@
 		else $player = $indoors->farmhand;
 		$fileExist = true;
 	}
-
-	// Prise de la date inGame
-	if ((int) $player->dayOfMonthForSaveGame == 29) {
-		$seasonGame = (int) $player->seasonForSaveGame + 1;
-		$dayGame = 1;
-		if ($seasonGame == 4) $yearGame = (int) $player->yearForSaveGame++;
-		else $yearGame = (int) $player->yearForSaveGame;
-	}
-	else{
-		$seasonGame = (int) $player->seasonForSaveGame;
-		$yearGame = (int) $player->yearForSaveGame;
-		$dayGame = (int) $player->dayOfMonthForSaveGame;
-	}
-	switch ($seasonGame){
-		case 0:
-			$seasonGame = "Printemps";
-			break;
-		case 1:
-			$seasonGame = "Été";
-			break;
-		case 2:
-			$seasonGame = "Automne";
-			break;
-		case 3:
-			$seasonGame = "Hiver";
-			break;
-	}
-
-	$date = $dayGame . " " .  $seasonGame . " année " . $yearGame;
-	$dateNoYear = $dayGame . " " .  $seasonGame;
 	
 	$prefixVillager = $villagerInfo['villagers'];
+	$recipes = $villagerInfo["recipeCrafts"];
+
+	$count = count($prefixVillager);
+	$countRecipes = count($recipes);
+
+	include 'dateGetter.php';
 	
 ?>
 <!doctype html>

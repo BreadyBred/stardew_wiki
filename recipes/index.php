@@ -31,27 +31,24 @@
 						<th>Source</th>
 					</tr>
 					<?php
-						$recipes = $villagerInfo["recipeCrafts"];
-						$count = count($recipes);
-						for ($i = 1; $i <= $count; $i++){
+						for ($i = 1; $i <= $countRecipes; $i++){
 							$nom = $recipes[$i]["name"];
 							$ingredients = $recipes[$i]["ingredients"];
 							$source = $recipes[$i]["unlock"];
-							echo '<tr>';
-								// Img recette
-								echo "<td>";
-									echo "<div>";
+							// Img recette
+							echo "<tr>
+									<td>
+										<div>";
 										if (file_exists('../others/recipes/'.$nom.'.webp'))
 										echo '<img src="'.$baseurl.'others/recipes/'.$nom.'.webp" alt="'.$nom.'" title="'.$nom.'" id="'.$i+$y.'" width="32" height="32"/>';
 										else if (file_exists('../others/recipes/'.$nom.'.png'))
 											echo '<img src="'.$baseurl.'others/recipes/'.$nom.'.png" alt="'.$nom.'" title="'.$nom.'" id="'.$i+$y.'" width="32" height="32"/>';
 										else if (file_exists('../others/recipes/'.$nom.'.jpg'))
 											echo '<img src="'.$baseurl.'others/recipes/'.$nom.'.jpg" alt="'.$nom.'" title="'.$nom.'" id="'.$i+$y.'" width="32" height="32"/>';
-									echo "</div>";
-									echo "<div>";
-										echo $nom;
-									echo "</div>";
-								echo "</td>";
+									echo "</div>
+										<div>" . $nom . "</div>
+									</td>";
+
 								// Ingrédients imgs & quantités
 								$countIngredient = count($ingredients);
 								echo "<td>";
@@ -64,11 +61,11 @@
 										echo '<img src="'.$baseurl.'others/recipes/'.$nomIngredient.'.png" alt="'.$nomIngredient.'" title="'.$nomIngredient.'" id="'.$i+$y.'" width="32" height="32"/>';
 									else if (file_exists('../others/recipes/'.$nomIngredient.'.jpg'))
 										echo '<img src="'.$baseurl.'others/recipes/'.$nomIngredient.'.jpg" alt="'.$nomIngredient.'" title="'.$nomIngredient.'" id="'.$i+$y.'" width="32" height="32"/>';
-									echo "x". $qteIngredient;
+									echo "x" . $qteIngredient;
 								}
 								echo "</td>";
 								// Source
-								echo "<td>".$source."</td>";
+								echo "<td>" . $source . "</td>";
 
 							echo '</tr>';
 						}	

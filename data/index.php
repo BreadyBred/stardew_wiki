@@ -1,7 +1,6 @@
 <?php
 	include '../templates/header.php';
 
-	$count = count($prefixVillager);
 	$villagersNameArray = array();
 	for ($i = 1; $i < $count; $i++){
 		$nom = $prefixVillager[$i]['name'];
@@ -84,7 +83,6 @@
 					</tr>
 					<?php
 						if ($fileExist){
-							$prefixVillager = $villagerInfo['villagers'];
 							$count = count($prefixVillager);
 							$exceptions = ["Zacarienne", "Vladimir", "Josée", "Adolf", "Henchman"];
 							$jsonArray = array();
